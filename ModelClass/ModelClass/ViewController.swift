@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         let dic:NSDictionary=["model":"class"]
         let dic1 = StudentClass().initWithDictionary(dic)
-        print("view class %@", dic1.company ?? "")
+        print("view class is %@", dic1.company ?? "")
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
